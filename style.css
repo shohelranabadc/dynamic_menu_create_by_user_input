@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    
+    padding: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.767);
+    overflow: hidden;
+    
+}
+
+ul li{
+    display: inline-block
+}
+
+ul li a{
+padding: 16px 20px;
+text-decoration: none;
+font-size: 1.2rem;
+display: block;
+color: lightseagreen;
+
+}
+
+ul li:hover a {
+    background: #000;
+    color: #fff;
+    transition: 0.1s all;
+}
